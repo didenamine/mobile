@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".travel_page"
+    android:padding="20dp"
+    android:background="@drawable/submit"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="20dp"
+        android:hint="Enter your To do "
+        android:textColorHint="#356DB5"
+        android:textColor="#356DB5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/et"
+
+        android:background="@drawable/edittext_bkg"
+        />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/no_border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:id="@+id/bs"/>
+
+
+</RelativeLayout>

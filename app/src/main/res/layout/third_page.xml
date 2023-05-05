@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third_page"
+    android:background="@drawable/background"
+    >
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:textSize="70dp"
+        />
+    <EditText
+        android:id="@+id/counter_sub"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bkg"
+        android:height="100dp"
+        android:textSize="30dp"
+        android:hint="Subject name"
+        android:padding="20dp"
+        />
+    <EditText
+        android:id="@+id/counter_text"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/counter_sub"
+        android:layout_height="100dp"
+        android:background="@drawable/edittext_bkg"
+        android:textSize="30dp"
+        android:inputType="number"
+        android:layout_marginTop="50dp"
+        android:hint="time here"
+        android:padding="15dp"
+        />
+    <Button
+        android:id="@+id/counter_btn"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/counter_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:text="Start"
+        android:textColor="#356DB5"
+        android:backgroundTint="@color/white"
+    />
+</RelativeLayout>
